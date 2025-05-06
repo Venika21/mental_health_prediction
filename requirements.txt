@@ -3,3 +3,4 @@ pandas
 scikit-learn
 numpy
 data_preprocessing 
+matplotlib
