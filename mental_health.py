@@ -21,7 +21,7 @@ def load_and_preprocess_data():
 # train_model.py
 import pickle
 from sklearn.ensemble import RandomForestClassifier
-from data_preprocessing import load_and_preprocess_data
+from data_preprocessing import load_mental_health_data
 
 X, y, encoders = load_and_preprocess_data()
 model = RandomForestClassifier()
